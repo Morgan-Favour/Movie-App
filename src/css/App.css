@@ -1,0 +1,16 @@
+.main-content {
+  min-height: calc(100vh - 80px); /* Adjust based on navbar height */
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 766px) {
+  .main-content {
+    min-height: calc(100vh - 60px);
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    min-height: calc(100vh - 50px);
+  }
+}
